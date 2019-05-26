@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<color name="colorPrimary">#008577</color>
+<color name="colorPrimaryDark">#00574B</color>
+<color name="colorAccent">#D81B60</color>
+<!-- Base colors palette -->
+<color name="transparent">#00000000</color>
+<color name="white">#ffffff</color>
+<color name="black_trans">#CC777777</color>
+<color name="white_trans">#CCFFFFFF</color>
+<color name="white_trans_medium">#88FFFFFF</color>
+<color name="black">#000000</color>
+<color name="blacktransparent">#aa000000</color>
+<color name="transparent_android">#60000000</color>
+<color name="gray_pdp">#3b3b3e</color>
+<color name="gray_background">#f5f5f5</color>
+<color name="gray1">#666666</color>
+<color name="gray2">#73787a</color>
+<color name="gray3">#81898b</color>
+<color name="gray8">#2e000000</color>
+<color name="gray4">#d8d8d8</color>
+<color name="gray5">#f2f2f2</color>
+<color name="gray6">#888888</color>
+<color name="gray6_alpha">#1a888888</color>
+<color name="gray7">#EFEFEF</color>
+<color name="gray9">#b9b9b9</color>
+<color name="gray10">#b4b4b4</color>
+<color name="gray11">#ebebeb</color>
+<color name="gray12">#979797</color>
+<color name="rosaLiverpool">#e10098</color>
+<color name="rosaLiverpoolClaro">#77f2A1FF</color>
+<color name="rosaLiverpoolDisable">#E799C2</color>
+<color name="rosaCorporativoHobver">#C81685</color>
+<color name="error">#ff0000</color>
+<color name="warn">#e1a625</color>
+<color name="fine">#39b54a</color>
+<color name="bad">#FF0000</color>
+<color name="green">#EDFBDE</color>
+<color name="lightGold">#ffd457</color>
+<color name="lightblue">#19A1F5</color>
+<color name="fontHeader">#38383c</color>
+<color name="badgeBackground">#fc2c7b</color>
+<color name="red">#ff0000</color>
+<color name="red_custom">#FBE4E4</color>
+<color name="menu_group">#E7E7E7</color>
+<color name="gray_review">#4A4A4A</color>
+<color name="background_general_gray">#f8f8f8</color>
+<color name="font_market_place">#444444</color>
+</resources>
