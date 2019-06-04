@@ -1,4 +1,4 @@
-package com.apps.proyectomenu.Adapters;
+package com.apps.proyectomenu.adapters;
 
 import android.content.Context;
 import android.support.v7.widget.RecyclerView;
@@ -7,7 +7,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import com.apps.proyectomenu.Models.Backup;
+import com.apps.proyectomenu.models.Backup;
 import com.apps.proyectomenu.R;
 
 import java.util.ArrayList;

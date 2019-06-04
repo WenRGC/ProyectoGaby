@@ -1,7 +1,7 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:context="com.apps.proyectomenu.MainActivity">
+    tools:context="com.apps.proyectomenu.activities.MainActivity">
     <item
         android:id="@+id/action_notif"
         android:orderInCategory="101"
@@ -13,11 +13,7 @@
         android:orderInCategory="101"
         android:title="@string/action_dos"
         app:showAsAction="never" />
-    <item
-        android:id="@+id/action_sync_device"
-        android:orderInCategory="101"
-        android:title="@string/action_tres"
-        app:showAsAction="never" />
+
     <item
         android:id="@+id/action_close"
         android:orderInCategory="101"
