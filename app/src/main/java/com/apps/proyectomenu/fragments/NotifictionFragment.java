@@ -1,4 +1,4 @@
-package com.apps.proyectomenu.view;
+package com.apps.proyectomenu.fragments;
 
 import android.os.Bundle;
 import android.support.annotation.NonNull;

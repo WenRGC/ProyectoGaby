@@ -12,11 +12,11 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.FrameLayout;
 import android.widget.RelativeLayout;
-import android.widget.Toast;
 
 import com.apps.proyectomenu.R;
-import com.apps.proyectomenu.view.ConfigurationFragment;
-import com.apps.proyectomenu.view.NotifictionFragment;
+import com.apps.proyectomenu.fragments.ConfigurationFragment;
+import com.apps.proyectomenu.fragments.NotifictionFragment;
+import com.apps.proyectomenu.fragments.SyncFragment;
 
 public class MainActivity extends AppCompatActivity {
     private RelativeLayout porcentage;
@@ -55,10 +55,13 @@ public class MainActivity extends AppCompatActivity {
 
         switch (id){
             case R.id.action_notif:
-                showFragmentAnimation(new NotifictionFragment(), getString(R.string.notif_title));
+                showFragment(new NotifictionFragment(), getString(R.string.notif_title));
                 break;
             case R.id.action_Config:
-                showFragmentAnimation(new ConfigurationFragment(),getString(R.string.conf_title));
+                showFragment(new ConfigurationFragment(),getString(R.string.conf_title));
+                break;
+            case R.id.action_vinc:
+                showFragment(new SyncFragment(),getString(R.string.action_tres));
                 break;
             case R.id.action_close:
                 finish();
@@ -71,7 +74,7 @@ public class MainActivity extends AppCompatActivity {
         return super.onOptionsItemSelected(item);
     }
 
-    public void showFragmentAnimation(Fragment fragment, String title) {
+    public void showFragment(Fragment fragment, String title) {
         getSupportActionBar().setTitle(title);
 
         FragmentManager manager = getSupportFragmentManager();

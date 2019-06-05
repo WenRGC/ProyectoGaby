@@ -4,6 +4,7 @@
     <dimen name="fab_margin">16dp</dimen>
     <dimen name="margin_20">20dp</dimen>
     <dimen name="margin_30">30dp</dimen>
+    <dimen name="margin_40">40dp</dimen>
     <dimen name="margin_50">50dp</dimen>
     <dimen name="margin_70">70dp</dimen>
     <dimen name="margin_100">100dp</dimen>

@@ -1,20 +1,20 @@
 <resources>
     <string name="app_name">Proyecto respaldos</string>
     <!--ITEMS MENU-->
-    <string name="action_uno">Notificaciones</string>
-    <string name="action_dos">Configuración de respaldo</string>
-    <string name="action_tres">Vincular nuevo dispositivo</string>
+    <string name="action_uno">Configuración de notificaciones</string>
+    <string name="action_dos">Información de respaldo</string>
+    <string name="action_tres">Vincular dispositivo</string>
     <string name="action_cuatro">Cerrar sesión</string>
 
     <!--Configurations-->
-    <string name="conf_title">Configuración de respaldos</string>
+    <string name="conf_title">Información de respaldo</string>
     <string name="conf_name_device">Nombre del dispositivo</string>
     <string name="conf_storage">Almacenamiento utilizado</string>
     <string name="conf_time">Periodo de tiempo de respaldo</string>
     <string name="conf_history">Historial de respaldos</string>
 
     <!--Notifications-->
-    <string name="notif_title">Notificaciones</string>
+    <string name="notif_title">Configuración de notificaciones</string>
 
     <!--Login-->
     <string name="todo">TODO</string>

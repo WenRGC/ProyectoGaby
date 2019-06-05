@@ -1,12 +1,8 @@
-package com.apps.proyectomenu.view;
+package com.apps.proyectomenu.fragments;
 
-import android.os.Build;
 import android.os.Bundle;
-import android.os.storage.StorageManager;
-import android.os.storage.StorageVolume;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
-import android.support.annotation.RequiresApi;
 import android.support.v4.app.Fragment;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
@@ -16,9 +12,9 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.TextView;
 
+import com.apps.proyectomenu.R;
 import com.apps.proyectomenu.adapters.HistoryAdapter;
 import com.apps.proyectomenu.models.Backup;
-import com.apps.proyectomenu.R;
 import com.apps.proyectomenu.utilities.DeviceMemory;
 
 import java.util.ArrayList;
