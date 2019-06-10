@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "55402582083",
+    "firebase_url": "https://syncbackup.firebaseio.com",
+    "project_id": "syncbackup",
+    "storage_bucket": "syncbackup.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:55402582083:android:92af251cb5263456",
+        "android_client_info": {
+          "package_name": "com.apps.proyectomenu"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "55402582083-kmvude0v1cjv5m6op0f9rphqi4upb6n9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.apps.proyectomenu",
+            "certificate_hash": "1571c28a0e2d717106b99e54cb1ec72b781fef26"
+          }
+        },
+        {
+          "client_id": "55402582083-1ohjd892lqi92cp4mcf4f05ciroilq4r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB1sslXHNy64IMjyDRhsyKIE_Cm0vy--zI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "55402582083-1ohjd892lqi92cp4mcf4f05ciroilq4r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
